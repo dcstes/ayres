@@ -1,4 +1,4 @@
-| sketch p a A b B c C d D |
+| sketch P a A b B c C d D |
 sketch _ DrGeoSketch new.
 P _ sketch point:0@4.
 P cross.P name:'P'.

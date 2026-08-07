@@ -1,4 +1,4 @@
-| sketch p a A b B c C d D p1 p2 |
+| sketch p P a A b B c C d D p1 p2 |
 sketch _ DrGeoSketch new.
 sketch text:'P(a,b,c,d,...) =^ p(A,B,C,D,...)' at:-4@-4.
 P _ sketch point:0@4.

@@ -1,6 +1,6 @@
-| sketch p q a A Aq b B Bq c C Cq d D Dq p1 p2 q1 q2 I |
+| sketch p P q a A Aq b B Bq c C Cq d D Dq p1 p2 q1 q2 I |
 sketch _ DrGeoSketch new.
-sketch text:'p(A,B,C,D,...) =^ p"(A",B",C",D",...)' at:-4@-4.
+sketch text:'p(A,B,C,D,...) =center P^ p"(A",B",C",D",...)' at:-4@-4.
 P _ sketch point:0@4.
 P cross.P name:'P'.
 A _ sketch point:(-3@0).
@@ -36,6 +36,7 @@ B _ sketch intersectionOf:p and:b.
 C _ sketch intersectionOf:p and:c.
 D _ sketch intersectionOf:p and:d.
 I _ sketch intersectionOf:p and:q.
+I color:Color green.
 Aq _ sketch intersectionOf:q and:a.
 Bq _ sketch intersectionOf:q and:b.
 Cq _ sketch intersectionOf:q and:c.
