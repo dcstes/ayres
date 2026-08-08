@@ -12,10 +12,11 @@ Schaum Publishing Co. New York, 1967
 
 Chapter 1 introduction
 
-	8a - pencil of points (pop)
-	8b - pencil of lines (pol)
-	9a - elementary perspectivity
-	9b - perspective pop's with center of perspectivity, invariant point
-	9b2 - perspective pop's defined by two points and their correspondents
-	9c - perspective pol's with axis of perspectivity, invariant line
+ 8a  : pencil of points (POP)
+ 8b  : pencil of lines (POL)
+ 9a  : elementary perspectivity
+ 9b  : perspective POPs with center of perspectivity, invariant point
+ 9b2 : perspective POPs defined by two points and their correspondents
+ 9c  : perspective POLs with axis (line) of perspectivity, invariant line
+ 9c2 : perspective POLs defined by two lines and their correspondents
 
