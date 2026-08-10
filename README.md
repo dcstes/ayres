@@ -19,4 +19,7 @@ Chapter 1 introduction
  9b2 : perspective POPs defined by two points and their correspondents
  9c  : perspective POLs with axis (line) of perspectivity, invariant line
  9c2 : perspective POLs defined by two lines and their correspondents
+ 10  : projectivity (projective correspondence) between POP : 2 perspectivities
+ 11  : projectivity (projective correspondence) between POP : 3 perspectivities
+ p3  : two projectively related superposed POLs
 
