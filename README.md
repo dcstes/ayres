@@ -21,5 +21,6 @@ Chapter 1 introduction
  9c2 : perspective POLs defined by two lines and their correspondents
  10  : projectivity (projective correspondence) between POP : 2 perspectivities
  11  : projectivity (projective correspondence) between POP : 3 perspectivities
- p3  : two projectively related superposed POLs
+ 13  : two projectively related superposed POLs
+ 14a : projectivity between three collinear points A1,B1,C1 to A2,B2,C2 (A1=A2)
 
