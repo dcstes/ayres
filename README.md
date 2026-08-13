@@ -10,6 +10,17 @@ Theory and Problems of Projective Geometry
 
 Schaum Publishing Co. New York, 1967
 
+REFERENCES
+Michel Chasles, Aperçu historique, 1880, Gauthier-Villars, Paris
+Michel Chasles, Traité de géométrie supérieure, 1880, Gauthier-Villars, Paris
+Monge, Géometrie descriptive, 1795, Paris
+André Delachet, La Géometrie Projective, 1964, Presses Univ. de France
+Karl Doehlemann, Projektive Geometrie in synthetischer Behandlung, 1905, Leipzig
+Luigi Cremona, Elementi di geometria projettiva, Torino, 1873
+Luigi Cremona, Elements of projective geometry, Clarendon Press 1885
+Luigi Cremona, Elements of projective geometry, Oxford University Press, 1913
+Luigi Cremona, Elements of projective geometry, 1960, Dover Pubs, New York
+
 Chapter 1 introduction
 
  8a  : pencil of points (POP)
@@ -21,6 +32,11 @@ Chapter 1 introduction
  9c2 : perspective POLs defined by two lines and their correspondents
  10  : projectivity (projective correspondence) between POP : 2 perspectivities
  11  : projectivity (projective correspondence) between POP : 3 perspectivities
+ 12  : augmented lines: project point at infinity to intersection parallel line
  13  : two projectively related superposed POLs
  14a : projectivity between three collinear points A1,B1,C1 to A2,B2,C2 (A1=A2)
+ 14b : projectivity between three collinear points on different lines (A1!=A2)
+ 14c : projectivity between pair of three collinear points on same line
+ 15  : projectivity of points p(A,B,C,D) -^ p(C,D,A,B)
+ 16  : projectivity of lines P(a,b,c,d) -^ P(b,a,d,c)
 
