@@ -16,8 +16,8 @@ Michel Chasles, Traité de géométrie supérieure, 1880, Gauthier-Villars, Pari
 Monge, Géometrie descriptive, 1795, Paris
 André Delachet, La Géometrie Projective, 1964, Presses Univ. de France
 Karl Doehlemann, Projektive Geometrie in synthetischer Behandlung, 1905, Leipzig
-Luigi Cremona, Elementi di geometria projettiva, Torino, 1873
-Luigi Cremona, Elements of projective geometry, Clarendon Press 1885
+Luigi Cremona, Elementi di geometria projettiva, Torino, 1873 (Italian, later translated into German and French)
+Luigi Cremona, Elements of projective geometry, Clarendon Press 1885 (English translation with foreword from Cremona)
 Luigi Cremona, Elements of projective geometry, Oxford University Press, 1913
 Luigi Cremona, Elements of projective geometry, 1960, Dover Pubs, New York
 
@@ -39,4 +39,12 @@ Chapter 1 introduction
  14c : projectivity between pair of three collinear points on same line
  15  : projectivity of points p(A,B,C,D) -^ p(C,D,A,B)
  16  : projectivity of lines P(a,b,c,d) -^ P(b,a,d,c)
+
+Chapter 2 cross ratio
+
+ 1   : ratio of division in Euclidean plane
+ 1b  : cross ratio (=double ratio) in Euclidean plane
+ 2   : invariance of cross ratio
+ 3   : cross ratio of four lines
+ 4   : cross ratio of of two points and two lines
 
