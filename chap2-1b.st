@@ -1,5 +1,19 @@
-| sketch p P a A b B c C d D p1 p2 AC AD BC BD block1 block2|
+| sketch p P a A b B c C d D p1 p2 AC AD BC BD block1 block2 signlenBlock|
 sketch _ DrGeoSketch new.
+
+
+signlenBlock _ [ :pt1 :pt2 :line | 
+	| point1 point2 u u12 dist dotprod |
+	u _ line mathItem direction.
+	point1 _ pt1 mathItem point.
+	point2 _ pt2 mathItem point.
+	u12 _ point2 - point1.
+	dist _ point1 dist:point2.
+	dotprod _ u dotProduct:u12.
+	dist * (dotprod sign) 
+	].
+
+
 sketch text:'cross ratio (A,B;C,D)=(AB,C)/(AB,D)' at:-5@3.
 P _ sketch point:0@4.
 P cross.P name:'P'.
@@ -44,8 +58,9 @@ BD hide.
 sketch text:'AC/BC' at:-5@-5.
 sketch text:'AD/BD' at:-5@-4.
 sketch text:'(A,B;C,D)' at:-5@-3.
-block1 _ [(AC mathItem length) / (BC mathItem length)].
-block2 _ [(AD mathItem length) / (BD mathItem length)].
+block1 _ [(signlenBlock value:A value:C value:p) / (signlenBlock value:B value:C value:p)].
+block2 _ [(signlenBlock value:A value:D value:p) / (signlenBlock value:B value:D value:p)].
 sketch value:block1 at:-1@-5.
 sketch value:block2 at:-1@-4.
 sketch value:[(block1 value) /(block2 value)] at:-1@-3.
+

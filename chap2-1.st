@@ -1,6 +1,18 @@
-| sketch p P a A b B c C d D p1 p2 AC CA BC |
+| sketch p P a A b B c C d D p1 p2 AC CA BC signlenBlock |
 sketch _ DrGeoSketch new.
 sketch text:'ratio of division (AB,C)=AC/BC' at:-4@3.
+
+signlenBlock _ [ :pt1 :pt2 :line | 
+	| point1 point2 u u12 dist dotprod |
+	u _ line mathItem direction.
+	point1 _ pt1 mathItem point.
+	point2 _ pt2 mathItem point.
+	u12 _ point2 - point1.
+	dist _ point1 dist:point2.
+	dotprod _ u dotProduct:u12.
+	dist * (dotprod sign) 
+	].
+
 P _ sketch point:0@4.
 P cross.P name:'P'.
 A _ sketch point:(-3@0).
@@ -39,6 +51,5 @@ CA _ sketch segment: C to:A.
 CA hide.
 BC _ sketch segment:B to:C.
 BC hide. 
-sketch value:[(AC mathItem length) / (BC mathItem length)] at:-3@-5.
-sketch value:[(AC mathItem length) ] at:-3@-4.
-sketch value:[(CA mathItem length) ] at:-3@-3.
+sketch value:[(signlenBlock value:A value:C value:p) / (signlenBlock value:B value:C value:p) ] at:-3@-5.
+
