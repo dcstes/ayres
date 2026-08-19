@@ -53,4 +53,5 @@ Chapter 2 cross ratio
  2   : invariance of cross ratio
  3   : cross ratio of four lines
  4   : cross ratio of of two points and two lines
+ 9   : pappus (pappos) theorem
 
