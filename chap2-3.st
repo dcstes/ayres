@@ -14,7 +14,7 @@ signlenBlock _ [ :pt1 :pt2 :line |
 	].
 
 
-sketch text:'cross ratio (A,B;C,D)=(AB,C)/(AB,D)' at:-5@3.
+sketch text:'cross ratio (a,b;c,d)=(A,B;C,D)' at:-5@3.
 P _ sketch point:0@4.
 P cross.P name:'P'.
 A _ sketch point:(-3@0).
@@ -47,19 +47,7 @@ A name:'A'.
 B name:'B'.
 C name:'C'.
 D name:'D'.
-AC _ sketch segment: A to:C.
-AC hide.
-BC _ sketch segment:B to:C.
-BC hide.
-AD _ sketch segment:A to:D.
-AD hide.
-BD _ sketch segment:B to:D.
-BD hide.
-sketch text:'AC/BC' at:-5@-5.
-sketch text:'AD/BD' at:-5@-4.
-sketch text:'(A,B;C,D)' at:-5@-3.
+sketch text:'(a,b;c,d)' at:-5@-3.
 block1 _ [(signlenBlock value:A value:C value:p) / (signlenBlock value:B value:C value:p)].
 block2 _ [(signlenBlock value:A value:D value:p) / (signlenBlock value:B value:D value:p)].
-sketch value:block1 at:-1@-5.
-sketch value:block2 at:-1@-4.
 sketch value:[(block1 value) /(block2 value)] at:-1@-3.

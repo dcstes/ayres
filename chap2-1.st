@@ -52,4 +52,3 @@ CA hide.
 BC _ sketch segment:B to:C.
 BC hide. 
 sketch value:[(signlenBlock value:A value:C value:p) / (signlenBlock value:B value:C value:p) ] at:-3@-5.
-

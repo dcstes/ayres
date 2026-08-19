@@ -11,19 +11,22 @@ Theory and Problems of Projective Geometry
 Schaum Publishing Co. New York, 1967
 
 REFERENCES
-Michel Chasles, Aperçu historique, 1880, Gauthier-Villars, Paris
-Michel Chasles, Traité de géométrie supérieure, 1880, Gauthier-Villars, Paris
-Monge, Géometrie descriptive, 1795, Paris
-André Delachet, La Géometrie Projective, 1964, Presses Univ. de France
-Karl Doehlemann, Projektive Geometrie in synthetischer Behandlung, 1905, Leipzig
-Luigi Cremona, Elementi di geometria projettiva, Torino, 1873 (Italian, later translated into German and French)
-Luigi Cremona, Elements of projective geometry, Clarendon Press 1885 (English translation with foreword from Cremona)
-Luigi Cremona, Elements of projective geometry, Oxford University Press, 1913
-Luigi Cremona, Elements of projective geometry, 1960, Dover Pubs, New York
+
+* Monge, Géometrie descriptive, 1795, Paris
+* Michel Chasles, Aperçu historique sur l'origine et le développement des méthodes en géométrie, 1837, Hayez, Bruxelles
+* Michel Chasles, Traité de géométrie supérieure, 1880, Gauthier-Villars, Paris
+* L.N.M. Carnot, Traité de la corrélation des figures, Paris, IX (1801)
+* L.N.M. Carnot, Géométrie de Position, XI (1803), Imprimerie de Crapelet, Paris
+* Karl Doehlemann, Projektive Geometrie in synthetischer Behandlung, 1905, Leipzig
+* Luigi Cremona, Elementi di geometria projettiva, Torino, 1873 (Italian, later translated into German and French)
+* Luigi Cremona, Elements of projective geometry, Clarendon Press 1885 (English translation with foreword from Cremona)
+* Luigi Cremona, Elements of projective geometry, Oxford University Press, 1913
+* Luigi Cremona, Elements of projective geometry, 1960, Dover Pubs, New York
+* André Delachet, La Géometrie Projective, 1964, Presses Univ. de France
 
 Chapter 1 introduction
 
- 8a  : pencil of points (POP)
+ 8a  :pencil of points (POP)
  8b  : pencil of lines (POL)
  9a  : elementary perspectivity
  9b  : perspective POPs with center of perspectivity, invariant point
@@ -44,6 +47,9 @@ Chapter 2 cross ratio
 
  1   : ratio of division in Euclidean plane
  1b  : cross ratio (=double ratio) in Euclidean plane
+ 1c  : cross ratio interchange any two of the four points simultaneously
+ 1d  : cross ratio interchange of one pair
+ 1e  : cross ratio interchange of inner two points or outer two points
  2   : invariance of cross ratio
  3   : cross ratio of four lines
  4   : cross ratio of of two points and two lines
