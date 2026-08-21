@@ -26,7 +26,7 @@ REFERENCES
 
 Chapter 1 introduction
 
- 8a  :pencil of points (POP)
+ 8a  : pencil of points (POP)
  8b  : pencil of lines (POL)
  9a  : elementary perspectivity
  9b  : perspective POPs with center of perspectivity, invariant point
@@ -53,5 +53,8 @@ Chapter 2 cross ratio
  2   : invariance of cross ratio
  3   : cross ratio of four lines
  4   : cross ratio of of two points and two lines
- 9   : pappus (pappos) theorem
+ 8   : projectivity of points for which Q is self-corresponding is perspectivity
+ 8b  : projectivity of lines for which PQ is self-corresponding is perspectivity
+ 9   : dual pappus (pappos) theorem lines are concurrent (point of Pappos)
+ 9b  : pappus (pappos) theorem points are collinear (line of Pappos)
 
