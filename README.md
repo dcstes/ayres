@@ -53,6 +53,8 @@ Chapter 2 cross ratio
  2   : invariance of cross ratio
  3   : cross ratio of four lines
  4   : cross ratio of of two points and two lines
+ 7a  : cross ratio lambda >0 for (A,B;C,X) three distince points A,B,C
+ 7b  : cross ratio lambda <0 for (A,B;C,X) three distince points A,B,C
  7c  : cross ratio zero for (A,B;C,X) three distince points A,B,C
  7d  : cross ratio one for (A,B;C,X) three distinct points A,B,C
  7e  : cross ratio = ratio of division of three distinct points A,B,C
