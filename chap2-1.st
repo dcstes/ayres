@@ -1,4 +1,4 @@
-| sketch p P a A b B c C d D p1 p2 AC CA BC signlenBlock |
+| sketch p P a A b B c C d D p1 p2 signlenBlock |
 sketch _ DrGeoSketch new.
 sketch text:'ratio of division (AB,C)=AC/BC' at:-4@3.
 
@@ -45,10 +45,4 @@ A name:'A'.
 B name:'B'.
 C name:'C'.
 D name:'D'.
-AC _ sketch segment: A to:C.
-AC hide.
-CA _ sketch segment: C to:A.
-CA hide.
-BC _ sketch segment:B to:C.
-BC hide. 
 sketch value:[(signlenBlock value:A value:C value:p) / (signlenBlock value:B value:C value:p) ] at:-3@-5.

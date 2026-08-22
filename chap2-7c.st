@@ -40,8 +40,8 @@ B _ sketch intersectionOf:p and:b.
 C _ sketch intersectionOf:p and:c.
 D _ B.
 A name:'A'.
-B name:'B'.
-C name:'C=X'.
+B name:'B=X'.
+C name:'C'.
 block1 _ [(signlenBlock value:A value:C value:p) / (signlenBlock value:B value:C value:p)].
 block2 _ [(signlenBlock value:B value:D value:p) / (signlenBlock value:A value:D value:p)].
 sketch value:[(block1 value) * (block2 value)] at:-1@-3.

@@ -53,8 +53,13 @@ Chapter 2 cross ratio
  2   : invariance of cross ratio
  3   : cross ratio of four lines
  4   : cross ratio of of two points and two lines
+ 7c  : cross ratio zero for (A,B;C,X) three distince points A,B,C
+ 7d  : cross ratio one for (A,B;C,X) three distinct points A,B,C
+ 7e  : cross ratio = ratio of division of three distinct points A,B,C
  8   : projectivity of points for which Q is self-corresponding is perspectivity
+       construction of point of perspectivity
  8b  : projectivity of lines for which PQ is self-corresponding is perspectivity
+       construction of line (axis) of perspectivity (??)
  9   : dual pappus (pappos) theorem lines are concurrent (point of Pappos)
  9b  : pappus (pappos) theorem points are collinear (line of Pappos)
 
