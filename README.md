@@ -92,4 +92,5 @@ Chapter 3 Desargues two triangle theorem
 	3c. Desargues two triangle theorem affine parallel lines (Euclides 6,2)
 	4. obtain intersection X of AB and line p by using Desargues theorem
 	7. Desargues two triangle theorem
+	8. dual of 4 : obtain join of intersection lines a and b and point P
 
