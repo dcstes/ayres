@@ -89,5 +89,7 @@ Chapter 3 Desargues two triangle theorem
 	2. complete 5-point in space 
 	3. Desargues configuration (center perspectivity,two triangles,axis 3pt)
 	3b. Desargues two triangle theorem coplanar-noncoplanar
+	3c. Desargues two triangle theorem affine parallel lines (Euclides 6,2)
+	4. obtain intersection X of AB and line p by using Desargues theorem
 	7. Desargues two triangle theorem
 
