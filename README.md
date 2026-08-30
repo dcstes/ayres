@@ -93,4 +93,5 @@ Chapter 3 Desargues two triangle theorem
 	4. obtain intersection X of AB and line p by using Desargues theorem
 	7. Desargues two triangle theorem
 	8. dual of 4 : obtain join of intersection lines a and b and point P
+	9 special case of Pappus: A1,A2,A3 and B1,B2,B3 perspective from O
 
