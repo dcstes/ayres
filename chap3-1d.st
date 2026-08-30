@@ -8,19 +8,19 @@ A _ sketch point:(0@1).
 A cross.
 B _ sketch point:(-2@-3).
 B cross.
-C _​ sketch point:(2@-3).
+C _ sketch point:(2@-3).
 C cross.
-D _​ sketch point:(-1@-1).
+D _ sketch point:(-1@-1).
 D cross.
-E _​ sketch point:(1@-1).
+E _ sketch point:(1@-1).
 E cross.
 a _ sketch line:B to:A.a name:'a'.
 b _ sketch line:C to:A.b name:'b'.
 c _ sketch line:D to:C.c name:'c'.
 d _ sketch line:E to:B.d name:'d'.
-D _​ sketch intersectionOf:c and:a.
-E _​ sketch intersectionOf:d and:b.
-F _​ sketch intersectionOf:c and:d.
+D _ sketch intersectionOf:c and:a.
+E _ sketch intersectionOf:d and:b.
+F _ sketch intersectionOf:c and:d.
 (sketch line:A to:F) color:(Color green).
 (sketch line:B to:C) color:(Color green).
 (sketch line:E to:D) color:(Color green).

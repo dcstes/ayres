@@ -7,9 +7,9 @@ A _ sketch point:(-1@-1).
 A cross.
 B _ sketch point:(1@-3).
 B cross.
-C _​ sketch point:(-1@-3).
+C _ sketch point:(-1@-3).
 C cross.
-D _​ sketch point:(1@-1).
+D _ sketch point:(1@-1).
 D cross.
 a _ sketch line:A to:B.
 a name:'a'.

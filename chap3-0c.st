@@ -9,7 +9,7 @@ A name:'A'.
 B _ sketch point:(2@0).
 B cross.
 B name:'B'.
-C _​ sketch point:(0@-3).
+C _ sketch point:(0@-3).
 C cross.
 C name:'C'.
 sketch line:A to:B.

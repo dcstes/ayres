@@ -7,16 +7,16 @@ A _ sketch point:(-1@-1).
 A cross.
 B _ sketch point:(1@-3).
 B cross.
-C _​ sketch point:(-1@-3).
+C _ sketch point:(-1@-3).
 C cross.
-D _​ sketch point:(1@-1).
+D _ sketch point:(1@-1).
 D cross.
 a _ sketch line:A to:B.
 b _ sketch line:C to:D.
 E _ sketch intersectionOf:a and:b.
-F _​ sketch point:(-1@1).
+F _ sketch point:(-1@1).
 F cross.
-G _​ sketch point:(2@1).
+G _ sketch point:(2@1).
 G cross.
 f _ sketch line:F to:G.
 H _ sketch intersectionOf:f and:a.

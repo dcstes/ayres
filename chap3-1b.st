@@ -8,17 +8,17 @@ A _ sketch point:(-1@-1).
 A cross.
 B _ sketch point:(2@-3).
 B cross.
-C _​ sketch point:(2@-1).
+C _ sketch point:(2@-1).
 C cross.
-D _​ sketch point:(-1@-3).
+D _ sketch point:(-1@-3).
 D cross.
-E _​ sketch point:(-1@-1).
+E _ sketch point:(-1@-1).
 E cross.
-F _​ sketch point:(3@0).
+F _ sketch point:(3@0).
 F cross.
-G _​ sketch point:(-2@-3).
+G _ sketch point:(-2@-3).
 G cross.
-H _​ sketch point:(2@-4).
+H _ sketch point:(2@-4).
 H cross.
 a _ sketch line:A to:B.a name:'a'.
 b _ sketch line:C to:D.b name:'b'.

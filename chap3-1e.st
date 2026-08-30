@@ -8,13 +8,13 @@ A _ sketch point:(0@1).
 A cross.A name:'A'.
 B _ sketch point:(-2@-3).
 B cross.B name:'B'.
-C _​ sketch point:(2@-3).
+C _ sketch point:(2@-3).
 C cross.C name:'C'.
-D _​ sketch point:(0@-2).
+D _ sketch point:(0@-2).
 D cross.D name:'D'.
 a _ sketch line:A to:C.
 b _ sketch line:C to:B.
 c _ sketch line:C to:D.
-d _​ sketch line:D to:B.
-e _​ sketch line:A to:B.
-f _​ sketch line:A to:D.
+d _ sketch line:D to:B.
+e _ sketch line:A to:B.
+f _ sketch line:A to:D.
