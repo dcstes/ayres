@@ -12,14 +12,23 @@ Schaum Publishing Co. New York, 1967
 
 REFERENCES
 
+* Abraham Bosse with preface by Desargues, 1643 (early modern French)
+"La pratique du trait a preuves de Mr. Desargues [lyonnois] pour la coupe des pierres en l'architecture", Paris, Pierre Des-Hayes
+text in early modern French, preface by Boss, and another preface by Desargues, with 114 technical drawings at the end of the book (after the text)
+book focuses on technical (rigourous) drawings and techniques for cutting stones
 * Abraham Bosse with preface by Desargues, 1664 (early modern Dutch by J.Bara)
 "Algemeene Manier van de Hr. Desargues, Tot de practijck der Perspectiven, gelijck tot die der Meetkunde, met de kleine voetmaat"
 "Mitsgaders der plaatsen, en proportien van de stercke en flaauwe Rakingen, of Kleuren"
 "By-een-gevoeght door Abraham Bosse, en uyt het Frans vertaalt van J.Bara"
 Book in Dutch published in 1664 by Dancker Dancertsz (or Dancker Dancertsen) in Amsterdam in 1664.
 Contains about 155 plates (drawings) about perspective drawing, shading (high / low contract grayshades) with mathematical proofs on perspectivities.
+drawings and text side by side (text and drawings on different pages)
 with a preface by Girard Desargues (signed DESARGUES and later once as SGDL)
+The preface by Desargues in the 1664 book differs from the one in the 1643 book (perhaps it was written before 1661 when Desargues died ?)
 The book focuses on applications, illustrations for architecture (perspective)
+* Philippe de la Hire, Traité des epicycloïdes &de leurs usages dans les mechaniques, Paris, Imprimerie Royale, 1694
+Book with theory on cycloids and epicycloids in the style of Euclid, but with applications to machines; de la Hire mentions Gerard Desargues as 'an excellent geometer" and explains that de la Hire had ordered to rebuild a machine originally built by Desargues as engineer; de la Hire mentions that he suspects that Desargues built this machine, but did not publish anything about it; the old machine was in ruins at the time of de la Hire.
+The book of de la Hire also contains a discussion on von Tchirnhaus visit to Paris and a proof of a Tchirnhaus conjecture on epicycloides.
 * Monge, Géometrie descriptive, 1795, Paris
 Originally "Géométrie Descriptive, Leçons données aux Ecoles normales" an III
 Published "an VII de la république" 
@@ -91,7 +100,15 @@ Chapter 3 Desargues two triangle theorem
 	3b. Desargues two triangle theorem coplanar-noncoplanar
 	3c. Desargues two triangle theorem affine parallel lines (Euclides 6,2)
 	4. obtain intersection X of AB and line p by using Desargues theorem
+	5. perspective quadrangles
 	7. Desargues two triangle theorem
 	8. dual of 4 : obtain join of intersection lines a and b and point P
-	9 special case of Pappus: A1,A2,A3 and B1,B2,B3 perspective from O
+	9. special case of Pappus: A1,A2,A3 and B1,B2,B3 perspective from O
+	10. reduce 2 perspectivities between points on 3 concurrent lines
+	    four triangles in perspective (corollary Desargues)
+	11. reduce 3 perspectivities between points on 2 pairs of lines
+	    corollary of reduction of 2 perspectivities (10)
+	[NOTE: stack including temps is too deep]
+	12. reduce 3 perspectivities between points on 3 concurrent lines
+	 and a not-concurrent line
 
