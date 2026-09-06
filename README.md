@@ -46,7 +46,7 @@ Republished in 1922 : Les mâitres de la pensée scientifique, publiée par les 
 * Luigi Cremona, Elements of projective geometry, 1960, Dover Pubs, New York
 * André Delachet, La Géometrie Projective, 1964, Presses Univ. de France
 
-Chapter 1 introduction
+Chapter 1 Introduction
 
 	8a. pencil of points (POP)
 	8b. pencil of lines (POL)
@@ -65,7 +65,7 @@ Chapter 1 introduction
 	15. projectivity of points p(A,B,C,D) -^ p(C,D,A,B)
 	16. projectivity of lines P(a,b,c,d) -^ P(b,a,d,c)
 
-Chapter 2 cross ratio
+Chapter 2 Cross Ratio
 
 	1. ratio of division in Euclidean plane
 	1b. cross ratio (=double ratio) in Euclidean plane
@@ -113,4 +113,9 @@ Chapter 3 Desargues two triangle theorem
 	[NOTE: stack including temps is too deep]
 	12. reduce 3 perspectivities between points on 3 concurrent lines
 	 and a not-concurrent line
+
+Chapter 4 Harmonic Sets
+
+	1a. harmonic set (harmonic tetrad) of points
+	1b. harmonic set (harmonic tetrad) of lines
 
