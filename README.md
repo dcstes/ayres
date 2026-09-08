@@ -120,4 +120,6 @@ Chapter 4 Harmonic Sets
 	1b. harmonic set (harmonic tetrad) of lines
 	1c. harmonic conjugate point E for points A,B,D
 	1d. harmonic conjugate line e for lines a,b,d
+	1e. harmonic set of lines (complete quadrilateral)
+	2.  harmonic set of points by section of harmonic set of lines
 
