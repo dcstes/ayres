@@ -122,4 +122,6 @@ Chapter 4 Harmonic Sets
 	1d. harmonic conjugate line e for lines a,b,d
 	1e. harmonic set of lines (complete quadrilateral)
 	2.  harmonic set of points by section of harmonic set of lines
+	3.  harmonic points of a complete quadrangle (diagonal triangle)
+
 

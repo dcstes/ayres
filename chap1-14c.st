@@ -32,7 +32,7 @@ C2 _ sketch intersectionOf:c2 and:r.
 C2 name:'C2'.
 sa _ sketch point:(-5@-2).
 sa cross.
-sb_ sketch point:(4@3).
+sb _ sketch point:(4@3).
 sb cross.
 s _ sketch line:sa to:sb.
 A3 _ sketch intersectionOf:s and:a.
@@ -41,7 +41,7 @@ C3 _ sketch intersectionOf:s and:c.
 A3 name:'A3'.
 B3 name:'B3'.
 C3 name:'C3'.
-qb_ sketch point:(2@0).
+qb _ sketch point:(2@0).
 qb cross.
 q _ sketch line:A2 to:qb.
 Q _ sketch point:-4@1.4.

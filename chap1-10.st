@@ -29,7 +29,7 @@ p2 _ sketch line:pa2 to:pb2.
 p2 name:'p2'.
 A1 _ sketch intersectionOf:p1 and:a1.
 B1 _ sketch intersectionOf:p1 and:b1.
-C1_ sketch intersectionOf:p1 and:c1.
+C1 _ sketch intersectionOf:p1 and:c1.
 D1 _ sketch intersectionOf:p1 and:d1.
 I _ sketch intersectionOf:p1 and:p2.
 I color:Color green.
