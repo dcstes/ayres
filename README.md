@@ -123,5 +123,5 @@ Chapter 4 Harmonic Sets
 	1e. harmonic set of lines (complete quadrilateral)
 	2.  harmonic set of points by section of harmonic set of lines
 	3.  harmonic points of a complete quadrangle (diagonal triangle)
-
+	3b. quadrilateral of harmonic points of a complete quadrangle 
 
