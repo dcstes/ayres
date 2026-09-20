@@ -1,8 +1,7 @@
-| sketch p t f g h i Sinf Rinf P0 P1 P2 E0 E1 |
+| sketch p t f g h i Sinf Rinf P0 P1 P2 E0 E1 count |
 sketch _ DrGeoSketch new.
 
-sketch text:'(inf,P(1-n);P(2-n),P(-n))' at:(-2@-3).
-
+count _ 100.
 P0 _ sketch point:(-3@-2).
 P0 cross.P0 name:'P0'.
 P1 _ sketch point:(-2@-2).
@@ -17,10 +16,20 @@ g _ sketch line:P1 to:Sinf.
 E0 _ sketch intersectionOf:f and:g.
 E0 name:'E0'.
 t _ sketch parallel: p at: E0.
+h _ sketch parallel:f at:P1.
+E1 _ sketch intersectionOf:h and:t.
+E1 name:'E1'.
+1 to: count do: [ :n | 
+i _ sketch parallel:g at:E1.
+P2 _ sketch intersectionOf:i and:p.
+E0 _ E1.
+h _ sketch parallel:f at:P2.
+E1 _ sketch intersectionOf:h and:t.
+	].
 h _ sketch parallel:g at:P0.
 E1 _ sketch intersectionOf:h and:t.
 E1 name:'E(-1)'.
-1 to: 10 do: [ :n | 
+1 to: count do: [ :n | 
 i _ sketch parallel:f at:E1.
 P2 _ sketch intersectionOf:i and:p.
 E0 _ E1.
