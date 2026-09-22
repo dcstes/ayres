@@ -139,4 +139,8 @@ Chapter 4 Harmonic Sets
 	6.  triangle ABC three collinear points A1,B1,C1 1 on each side of ABC
 	    lines that join the harmonic conjugates wrt. 2 vertices on side
             with the third vertex, are concurrent
+	7.  quadrangle PQRS  diagonal triangle ABC harmonic points DEFGIJ
+	    K intersection of DI and PQ,L intersection of DJ and RS
+	    M intersection of EI and PQ,N intersection of EJ and RS
+	    BKM and BNL are collinear
 
