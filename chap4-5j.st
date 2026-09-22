@@ -13,14 +13,11 @@ Rinf cross.
 f _ sketch line:P0 to:Rinf.
 g _ sketch line:P1 to:Sinf.
 E0 _ sketch intersectionOf:f and:g.
-E0 name:'E0'.
 t _ sketch parallel: p at: E0.
 h _ sketch parallel:f at:P1.
 E1 _ sketch intersectionOf:h and:t.
-E1 name:'E1'.
 h0 _ sketch parallel:g at:P0.
 Em1 _ sketch intersectionOf:h0 and:t.
-Em1 name:'E-1'.
 i _ sketch parallel:f at:Em1.
 Pm1 _ sketch intersectionOf:i and:p.
 Pm1 name:'P-1'.
