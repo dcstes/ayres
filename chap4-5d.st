@@ -54,7 +54,7 @@ D name:'D'.
 d _ sketch line:P to:D.
 P2 _ sketch intersectionOf:g and:d.
 P2 name:'P2'.
-sketch text:'(inf,P0;P1,P2)' at:-4@3.
+sketch text:'(inf,P0;P1,P-1)' at:-4@3.
 block1 _ [(signlenBlock value:A value:B value:f) / (signlenBlock value:C value:B value:f)].
 block2 _ [(signlenBlock value:A value:D value:f) / (signlenBlock value:C value:D value:f)].
 sketch value:[(block1 value) /(block2 value)] at:-4@2.

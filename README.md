@@ -144,3 +144,10 @@ Chapter 4 Harmonic Sets
 	    M intersection of EI and PQ,N intersection of EJ and RS
 	    BKM and BNL are collinear
 
+Chapter 5 Projectivities
+
+	1. Projectivities and the Pappos configuration
+	   axis of projectivity (pappos line)
+	   if projectivity of points r(A,B,C,D) -^ s(AA,BB,CC,DD)
+	   then line A AA double element perspectivity between POL's
+
