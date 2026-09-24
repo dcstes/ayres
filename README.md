@@ -147,7 +147,15 @@ Chapter 4 Harmonic Sets
 Chapter 5 Projectivities
 
 	1. Projectivities and the Pappos configuration
-	   axis of projectivity (pappos line)
-	   if projectivity of points r(A,B,C,D) -^ s(AA,BB,CC,DD)
-	   then line A AA double element perspectivity between POL's
+	   projectivity as product of two perspectivities (simple case)
+	   this is the case of chap3-10, this projectivity is a perspectivity
+	   axis of projectivity (Pappos line)
+	   if projectivity of points r(A,B,C,D) -^ s(A',B',C',D')
+	   then line A A' double element line : perspectivity between POL's
+	   theorem chap2-9 : any projectivity on A and A',
+           where the line A A' is self-corresponding is a perspectivity
+	2. Projectivities and the Pappos configuration: general case
+	   Construction projectivity using axis of projectivity (Pappos)
+	3. Projectivities and the Pappos configuration: superposed POP case
+	   Construction projectivity using axis of projectivity (Pappos)
 
