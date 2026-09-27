@@ -158,4 +158,10 @@ Chapter 5 Projectivities
 	   Construction projectivity using axis of projectivity (Pappos)
 	3. Projectivities and the Pappos configuration: superposed POP case
 	   Construction projectivity using axis of projectivity (Pappos)
+	4. Example of Hyperbolic Projectivity of superposed POP
+	   Harmonic Conjugates wrt two points: the two points are double points
+	5a.Projectivity of superposed POP (Hyperbolic, two double points)
+	   Product of two perspectivities : case M,R,S collinear
+	5b.Projectivity of superposed POP (Parabolic, one double point)
+	   Product of two perspectivities : case M,R,S and M,A1,B1 collinear
 
