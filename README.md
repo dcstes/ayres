@@ -1,14 +1,17 @@
 # ayres
-DrGeo sketches for Schaum's outline series
+DrGeo Smalltalk Sketches for :
+
+Frank Ayres Jr.
+Theory and Problems of Projective Geometry (Schaum Outline Series)
+Schaum Publishing Co. New York, 1967
 
 DrGeo is a Smalltalk system for geometry (running on Cuis Smalltalk).
 
 See http://cuis.st and http://gnu.org/s/dr-geo.
 
-Frank Ayres Jr.
-Theory and Problems of Projective Geometry
+The book by Frank Ayres Jr. provides in Chapter1 - 12 the basic propositions of plane projective geometry developed entirely by synthetic methods, and discusses some space (3D) configurations in Chapter 3.
 
-Schaum Publishing Co. New York, 1967
+The Frank Ayres book is Copyright (c) 1967 Schaum Publishing Company. "All rights reserved.  This book or any part thereof may not be reproduced in any form without written permission from the publishers."
 
 REFERENCES
 
@@ -157,7 +160,7 @@ Chapter 5 Projectivities
 	2. Projectivities and the Pappos configuration: general case
 	   Construction projectivity using axis of projectivity (Pappos)
 	3. Projectivities and the Pappos configuration: superposed POP case
-	   Construction projectivity using axis of projectivity (Pappos)
+	   Construction projectivity using axis different projectivity (Pappos)
 	4. Example of Hyperbolic Projectivity of superposed POP
 	   Harmonic Conjugates wrt two points: the two points are double points
 	5a.Projectivity of superposed POP (Hyperbolic, two double points)
