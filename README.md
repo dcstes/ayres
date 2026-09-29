@@ -167,4 +167,12 @@ Chapter 5 Projectivities
 	   Product of two perspectivities : case M,R,S collinear,M,A1,B1 not
 	5b.Projectivity of superposed POP (Parabolic, one double point)
 	   Product of two perspectivities : case M,R,S and M,A1,B1 collinear
+	5c.Projectivity of superposed POP (Hyperbolic, two double points M,N)
+	   Product of two perspectivities : case M,A1,B1 collinear,M,R,S not
+	5e.Dual of 5b Parabolic Projectivity of Superposed Pencil of Lines (POL)
+	   Projectivity of superposed POL (Parabolic, one double line)
+	   Product of two perspectivities : case m,r,s and m,a1,b1 concurrent
+	5f.Dual of 5c Parabolic Projectivity of Superposed Pencil of Lines (POL)
+	   Projectivity of superposed POL (Hyperbolic, two double lines m and n)
+	   Product of two perspectivities : case m,a1,b1 concurrent, m,r,s not
 
