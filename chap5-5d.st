@@ -21,33 +21,33 @@ B cross.
 B name:'b'.
 b _ sketch line:O to:B.
 
-P _ sketch point:(3.5@2).
+P _ sketch point:(3@-2).
 P cross.
 
 Q _ sketch point:(-3.5@-2).
 Q cross.
 Q name:'Q'.
 
-R _ sketch point:(3.5@-1).
+R _ sketch point:(3.5@-2.3).
 R cross.
 R name:'r'.
 
-r _ sketch line:Q to:R.
+r _ sketch line:P to:R.
+P _ sketch intersectionOf:m and:r.
+P name:'P'.
 
 S _ sketch point:(3.5@-3).
 S cross.
 S name:'s'.
 
-s _ sketch line:Q to:S.
+s _ sketch line:P to:S.
 
 A _ sketch intersectionOf:a and:r.
 B _ sketch intersectionOf:b and:r.
 A name:'A'.
 B name:'B'.
-a1 _ sketch line:P to:A.
-P _ sketch intersectionOf:a1 and:m.
-P name:'P'.
-b1 _ sketch line:P to:B.
+a1 _ sketch line:Q to:A.
+b1 _ sketch line:Q to:B.
 AA _ sketch intersectionOf:s and:a1.
 BB _ sketch intersectionOf:s and:b1.
 AA name:'A"'.
@@ -60,7 +60,7 @@ X cross.
 x _ sketch line:O to:X.
 X _ sketch intersectionOf:r and:x.
 X name:'X'.
-x1 _ sketch line:P to:X.
+x1 _ sketch line:Q to:X.
 XX _ sketch intersectionOf:s and:x1.
 XX name:'X"'.
 xx _ sketch line:O to:XX.
