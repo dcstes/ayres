@@ -178,4 +178,6 @@ Chapter 5 Projectivities
 	5f.Dual of 5c Hyperbolic Projectivity of Superposed POL
 	   Projectivity of superposed POL (Hyperbolic, two double lines m and n)
 	   Product of two perspectivities : case m,a1,b1 concurrent, m,r,s not
+	5g.Projectivity of superposed POL given double line and two pairs
+	   Product of two perspectivities (Hyperbolic projectivity) 
 
