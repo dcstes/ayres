@@ -180,4 +180,6 @@ Chapter 5 Projectivities
 	   Product of two perspectivities : case m,a1,b1 concurrent, m,r,s not
 	5g.Projectivity of superposed POL given double line and two pairs
 	   Product of two perspectivities (Hyperbolic projectivity) 
+	5h.Projectivity of superposed POP given double point and two pairs
+	   Product of two perspectivities (Hyperbolic projectivity) 
 
