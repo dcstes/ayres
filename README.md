@@ -180,6 +180,11 @@ Chapter 5 Projectivities
 	   Product of two perspectivities : case m,a1,b1 concurrent, m,r,s not
 	5g.Projectivity of superposed POL given double line and two pairs
 	   Product of two perspectivities (Hyperbolic projectivity) 
+	7. Projectivity opposite/direct
 	5h.Projectivity of superposed POP given double point and two pairs
 	   Product of two perspectivities (Hyperbolic projectivity) 
+	8. Parabolic Projectivity of superposed POL (M,A,A1) _^ (M,A1,A2)
+	   if and only if H(M,A1;A,A2) A,A2 harmonic position wrt M,A1
+	9. Quadrangular set Q(X,Y,Z;X1,Y1,Z1) and projectivity 
+	   (X,Y,Z,X1) -^ (X1,Y1,Z1,X)
 
