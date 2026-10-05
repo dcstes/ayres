@@ -187,4 +187,7 @@ Chapter 5 Projectivities
 	   if and only if H(M,A1;A,A2) A,A2 harmonic position wrt M,A1
 	9. Quadrangular set Q(X,Y,Z;X1,Y1,Z1) and projectivity 
 	   (X,Y,Z,X1) -^ (X1,Y1,Z1,X)
+	9b.Quadrangular set Q(X,Y,Z;X1,Y1,Z1) and projectivity 
+	   (X,Y,Z,D) -^ (X1,Y1,Z1,D1)
+           Construction of D1 by line of Pappos (axis of projectivity)
 
