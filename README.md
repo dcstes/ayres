@@ -191,3 +191,7 @@ Chapter 5 Projectivities
 	   (X,Y,Z,D) -^ (X1,Y1,Z1,D1)
            Construction of D1 by line of Pappos (axis of projectivity)
 
+Chapter 6 Involutions
+
+	2.  Involution of lines on a point O
+
