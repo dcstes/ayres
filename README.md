@@ -193,5 +193,6 @@ Chapter 5 Projectivities
 
 Chapter 6 Involutions
 
-	2.  Involution of lines on a point O
+	2. Involution of lines on a point O
+	3. Construct involution on a line given two reciprocal pairs of points
 
