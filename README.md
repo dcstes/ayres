@@ -190,9 +190,13 @@ Chapter 5 Projectivities
 	9b.Quadrangular set Q(X,Y,Z;X1,Y1,Z1) and projectivity 
 	   (X,Y,Z,D) -^ (X1,Y1,Z1,D1)
            Construction of D1 by line of Pappos (axis of projectivity)
+	   Cfr. chap6-4 for construction without line of Pappos
 
 Chapter 6 Involutions
 
 	2. Involution of lines on a point O
 	3. Construct involution on a line given two reciprocal pairs of points
+	4. Quadrangular set Q(X,Y,Z;X1,Y1,Z1) section by any line not on vertex
+	   Three reciprocal pairs of an involution
+	   Cfr. chap5-9b for construction with line of Pappos
 
