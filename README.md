@@ -199,4 +199,6 @@ Chapter 6 Involutions
 	   Cfr. chap5-9b for construction with line of Pappos
 	4. Quadrangular set Q(X,Y,Z;X1,Y1,Z1) section by any line not on vertex
 	   Three reciprocal pairs of an involution
+	4b.Diagonal points as double points in hyperbolic involution
+	   Harmonic conjugates with respect to double points
 
