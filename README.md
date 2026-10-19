@@ -202,4 +202,6 @@ Chapter 6 Involutions
 	   Three reciprocal pairs of an involution
 	4b.Diagonal points as double points in hyperbolic involution
 	   Harmonic conjugates with respect to double points
+	5. Construction of second double point N in hyperbolic involution
+	   Given one double point M and a reciprocal pair of points B and B"
 
