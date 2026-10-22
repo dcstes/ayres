@@ -53,11 +53,14 @@ Chapter 1 Introduction
 
 	8a. pencil of points (POP)
 	8b. pencil of lines (POL)
+	8c. pencil of points (POP) using :to:by:do: message
+	8d. pencil of lines (POL) using :to:by:do: message
 	9a. elementary perspectivity
 	9b. perspective POPs with center of perspectivity, invariant point
 	9b2. perspective POPs defined by two points and their correspondents
 	9c. perspective POLs with axis (line) of perspectivity, invariant line
 	9c2. perspective POLs defined by two lines and their correspondents
+	9d. perspective POPs with center of perspectivity :to:by:do: message
 	10. projectivity (projective correspondence) between POP : 2 perspectivities
 	11. projectivity (projective correspondence) between POP : 3 perspectivities
 	12. augmented lines: project point at infinity to intersection parallel line
