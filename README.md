@@ -15,6 +15,15 @@ The Frank Ayres book is Copyright (c) 1967 Schaum Publishing Company. "All right
 
 REFERENCES
 
+* Pappos / Federico Commandino, (1509-1575), copy printed in 1602
+"Commentaria in libros octo mathematicarum collectionum Pappi Alexandrini
+in Latin (codex graecus of Pappos translated by Federico Commandino)
+with comments in greek and latin  (the greek text is not fully reproduced)
+published after Commandino's death in 1602 in Pesaro (Pisaurum)
+Pesaro, Duchy of Urbino - dedicated to the duke Francisco Mariae II
+Antwerp City Library has a copy from 1602 of the Latin book
+page 245 Lemma VIII van Theorema CXXIII Propos. CXXXIIII
+"bomiscos" ABCDEFG From the Ancient Greek βωμίσκος (bōmískos) - altar or shrine
 * Abraham Bosse with preface by Desargues, 1643 (early modern French)
 "La pratique du trait a preuves de Mr. Desargues [lyonnois] pour la coupe des pierres en l'architecture", Paris, Pierre Des-Hayes
 text in early modern French, with a preface by Desargues, with 114 technical drawings at the end of the book (after the text)
