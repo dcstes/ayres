@@ -99,6 +99,8 @@ Chapter 2 Cross Ratio
 	8b.projectivity of lines for which PQ is self-corresponding is perspectivity / construction of line (axis) of perspectivity (??)
 	9. dual pappus (pappos) theorem lines are concurrent (point of Pappos)
 	9b. pappus (pappos) theorem points are collinear (line of Pappos)
+	9c. point of Pappos for chap8-1 computation with 2 concurrent lines
+	9d. point of Pappos for chap8-1 computation with 3 concurrent lines
 
 Chapter 3 Desargues two triangle theorem
 
@@ -216,4 +218,8 @@ Chapter 6 Involutions
 	   Harmonic conjugates with respect to double points
 	5. Construction of second double point N in hyperbolic involution
 	   Given one double point M and a reciprocal pair of points B and B"
+
+Chapter 8 Point Conics and Line Conics
+
+	1. Projective Point Conic R(a,b,c,...) -^ S(a1,b1,c1,...)
 
