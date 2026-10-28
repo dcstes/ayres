@@ -221,4 +221,6 @@ Chapter 6 Involutions
 Chapter 8 Point Conics and Line Conics
 
 	1. Projective Point Conic R(a,b,c,...) -^ S(a1,b1,c1,...)
+	   Construction of Point Of Pappos P
+	   Tangent Lines PR and PS in color green
 

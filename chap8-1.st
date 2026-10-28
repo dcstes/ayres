@@ -40,6 +40,9 @@ p2 _ sketch line:ac1 to:ca1.
 P _ sketch intersectionOf:p1 and:p2.
 P name:'P'.
 
+(sketch line:P to:R) color:(Color green).
+(sketch line:P to:S) color:(Color green).
+
 -3 to: 3 by:0.25 do: [ :i |
 X _ sketch point:(i@0).
 X cross.
