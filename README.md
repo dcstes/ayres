@@ -225,5 +225,5 @@ Chapter 8 Point Conics and Line Conics
 	   Tangent Lines PR and PS in color green
 	2. Projective Line Conic r(A,B,C,...) -^ s(A1,B1,C1,...)
 	   Construction of Line Of Pappos p
-	   Point of contact S1 in color green
+	   Points of contact S1 and S2 in color green
 

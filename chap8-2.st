@@ -1,4 +1,4 @@
-| sketch R R1 S X A B C A1 B1 C1 a b c a1 b1 c1 x r1 r2 r s1 s2 s AA1 BB1 CC1 AC1 A1C BC1 B1C p p1 p2 A1X X1 X2 AX2 S1 |
+| sketch R R1 S X A B C A1 B1 C1 a b c a1 b1 c1 x r1 r2 r s1 s2 s AA1 BB1 CC1 AC1 A1C BC1 B1C p p1 p2 A1X X1 X2 AX2 S1 S2 |
 sketch _ DrGeoSketch new.
 R _ sketch point:0@4.
 R cross.R name:'R'.
@@ -84,4 +84,6 @@ x _ sketch line:X to:X1.
 x color:(Color red).
 ].
 S1 _ sketch intersectionOf:p and:s.
-S1 color:(Color green). 
+S1 color:(Color green).
+S2 _ sketch intersectionOf:p and:r.
+S2 color:(Color green).
