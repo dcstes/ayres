@@ -227,3 +227,8 @@ Chapter 8 Point Conics and Line Conics
 	   Construction of Line Of Pappos p
 	   Points of contact S1 and S2 in color green
 
+Chapter 9 Poles and Polar Lines 
+
+	1. Polar Line q for a pole Q with respect to a point conic
+	   Harmonic conjugate of pole Q wrt points of the point conic
+
