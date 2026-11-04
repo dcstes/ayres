@@ -231,4 +231,8 @@ Chapter 9 Poles and Polar Lines
 
 	1. Polar Line q for a pole Q with respect to a point conic
 	   Harmonic conjugate of pole Q wrt points of the point conic
+	1b.Polar Line q for a pole Q with respect to a point conic
+	   Harmonic conjugate of pole Q wrt points of the point conic
+	   Complete quadrangle inscribed in point conic (green)
+	   Diagonal triangle of the complete quadrangle (blue)
 
