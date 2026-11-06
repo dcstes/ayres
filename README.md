@@ -236,3 +236,9 @@ Chapter 9 Poles and Polar Lines
 	   Complete quadrangle inscribed in point conic (green)
 	   Diagonal triangle of the complete quadrangle (blue)
 
+Chapter 10 Theorems of Pascal and Brianchon
+
+	1. Simple hexagon A1A2A3A4A5A6 inscriped in a (point) conic
+	   Intersections A1A2.A4A5 , A2A3.A5A6 , A3A4 . A6A1 are collinear
+	   Theorem (or line) of Pascal (in color blue)
+
