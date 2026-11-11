@@ -1,6 +1,6 @@
 | sketch R S T X x A a B b C c A1 a1 B1 b1 C1 c1 P p xc1 pointOfPapposBlock pointOfPapposForPencilsBlock conic |
 
-pointOfPapposBlock _ [ :array1 :array2 |
+pointOfPapposForPencilsBlock _ [ :array1 :array2 |
 	|
 	pap1 pap2 
 	pt3pt1 pt4pt1 pt5pt1
@@ -22,13 +22,17 @@ pt5pt1pt4pt2 _ sketch intersectionOf:pt5pt1 and:pt4pt2.
 pt3pt1pt5pt2 _ sketch intersectionOf:pt3pt1 and:pt5pt2.
 pt5pt1pt3pt2 _ sketch intersectionOf:pt5pt1 and:pt3pt2.
 pap1 _ sketch line:pt4pt1pt5pt2 to:pt5pt1pt4pt2.
+pt4pt1pt5pt2 hide.
+pt5pt1pt4pt2 hide.
+pt3pt1pt5pt2 hide.
+pt5pt1pt3pt2 hide.
 pap1 hide.
 pap2 _ sketch line:pt3pt1pt5pt2 to:pt5pt1pt3pt2.
 pap2 hide.
 sketch intersectionOf:pap1 and:pap2.
 	].
 
-pointOfPapposForPencilsBlock _ [ :centers :points |
+pointOfPapposBlock _ [ :centers :points |
 		|
 	pt1 pt2 pt3 pt4 pt5
 	pt3pt1 pt4pt1 pt5pt1
@@ -51,7 +55,7 @@ pointOfPapposForPencilsBlock _ [ :centers :points |
 	pt4pt2 hide.
 	pt5pt2 _ sketch line:pt5 to:pt2.
 	pt5pt2 hide.
-	pointOfPapposBlock value:{ pt3pt1. pt4pt1. pt5pt1 } value:{ pt3pt2. pt4pt2. pt5pt2 }
+	pointOfPapposForPencilsBlock value:{ pt3pt1. pt4pt1. pt5pt1 } value:{ pt3pt2. pt4pt2. pt5pt2 }
 	].
 
 sketch _ DrGeoSketch new.
@@ -92,7 +96,7 @@ conic add:A.
 conic add:B.
 conic add:C.
 
-P _ pointOfPapposBlock value:{ a. b. c } value:{ a1. b1. c1. }.
+P _ pointOfPapposForPencilsBlock value:{ a. b. c } value:{ a1. b1. c1. }.
 P name:'P'.
 
 (sketch line:P to:R) color:(Color green).
@@ -116,6 +120,6 @@ conic add:X.
 T _ conic at:10.
 T name:'T'.
 
-P _ pointOfPapposForPencilsBlock value:{ T. S} value:{ A. B. C }.
+P _ pointOfPapposBlock value:{ T. S} value:{ A. B. C }.
 
 (sketch line:P to:T) color:(Color green).

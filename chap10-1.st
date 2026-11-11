@@ -1,4 +1,62 @@
-| sketch R S X x A a B b C c A1 a1 B1 b1 C1 c1 P p1 p2 p bc1 cb1 ac1 ca1 xc1 conic Q X1 q q1 q2 x1 K L M X2 A2 A3 A4 A5 A6 s1 s2 r1 r2 |
+| sketch R S X x A a B b C c A1 a1 B1 b1 C1 c1 P p1 p2 p bc1 cb1 ac1 ca1 xc1 conic Q X1 q q1 q2 x1 K L M X2 A2 A3 A4 A5 A6 s1 s2 r1 r2 pointOfPapposBlock pointOfPapposForPencilsBlock|
+
+pointOfPapposForPencilsBlock _ [ :array1 :array2 |
+	|
+	pap1 pap2
+	pt3pt1 pt4pt1 pt5pt1
+	pt3pt2 pt4pt2 pt5pt2
+	pt4pt1pt5pt2
+	pt5pt1pt4pt2
+	pt3pt1pt5pt2
+	pt5pt1pt3pt2
+	|
+	pt3pt1 _ array1 at:1.
+	pt4pt1 _ array1 at:2.
+	pt5pt1 _ array1 at:3.
+	pt3pt2 _ array2 at:1.
+	pt4pt2 _ array2 at:2.
+	pt5pt2 _ array2 at:3.
+
+	pt4pt1pt5pt2 _ sketch intersectionOf:pt4pt1 and:pt5pt2.
+pt5pt1pt4pt2 _ sketch intersectionOf:pt5pt1 and:pt4pt2.
+pt3pt1pt5pt2 _ sketch intersectionOf:pt3pt1 and:pt5pt2.
+pt5pt1pt3pt2 _ sketch intersectionOf:pt5pt1 and:pt3pt2.
+pap1 _ sketch line:pt4pt1pt5pt2 to:pt5pt1pt4pt2.
+pt4pt1pt5pt2 hide.
+pt5pt1pt4pt2 hide.
+pt3pt1pt5pt2 hide.
+pt5pt1pt3pt2 hide.
+pap1 hide.
+pap2 _ sketch line:pt3pt1pt5pt2 to:pt5pt1pt3pt2.
+pap2 hide.
+sketch intersectionOf:pap1 and:pap2.
+	].
+
+pointOfPapposBlock _ [ :centers :points |
+		|
+	pt1 pt2 pt3 pt4 pt5
+	pt3pt1 pt4pt1 pt5pt1
+	pt3pt2 pt4pt2 pt5pt2
+	|
+	pt1 _ centers at:1.
+	pt2 _ centers at:2.
+	pt3 _ points at:1.
+	pt4 _ points at:2.
+	pt5 _ points at:3.
+	pt3pt1 _ sketch line:pt3 to:pt1.
+	pt3pt1 hide.
+	pt4pt1 _ sketch line:pt4 to:pt1.
+	pt4pt1 hide.
+	pt5pt1 _ sketch line:pt5 to:pt1.
+	pt5pt1 hide.
+	pt3pt2 _ sketch line:pt3 to:pt2.
+	pt3pt2 hide.
+	pt4pt2 _ sketch line:pt4 to:pt2.
+	pt4pt2 hide.
+	pt5pt2 _ sketch line:pt5 to:pt2.
+	pt5pt2 hide.
+	pointOfPapposForPencilsBlock value:{ pt3pt1. pt4pt1. pt5pt1 } value:{ pt3pt2. pt4pt2. pt5pt2 }
+	].
 
 sketch _ DrGeoSketch new.
 R _ sketch point:0@4.
@@ -38,13 +96,7 @@ conic add:A.
 conic add:B.
 conic add:C.
 
-bc1 _ sketch intersectionOf:b and:c1.
-cb1 _ sketch intersectionOf:c and:b1.
-ac1 _ sketch intersectionOf:a and:c1.
-ca1 _ sketch intersectionOf:c and:a1.
-p1 _ sketch line:bc1 to:cb1.
-p2 _ sketch line:ac1 to:ca1.
-P _ sketch intersectionOf:p1 and:p2.
+P _ pointOfPapposForPencilsBlock value:{ a. b. c } value:{ a1. b1. c1 }.
 P name:'P'.
 
 -3 to: 3 by:0.25 do: [ :i |
@@ -62,9 +114,9 @@ X _ sketch intersectionOf:x and:p.
 conic add:X.
 ].
 
-A1 _ conic at:4.
+A1 _ conic at:6.
 A2 _ conic at:26.
-A3 _ conic at:6.
+A3 _ conic at:8.
 A4 _ conic at:15.
 A5 _ conic at:10.
 A6 _ conic at:12.
@@ -78,7 +130,7 @@ A6 color:(Color green).
 q1 _ sketch line:A1 to:A2.
 q1 color:(Color green).
 q2 _ sketch line:A4 to:A5.
-q1 color:(Color green).
+q2 color:(Color green).
 K _ sketch intersectionOf:q1 and:q2.
 
 s1 _ sketch line:A2 to:A3.
