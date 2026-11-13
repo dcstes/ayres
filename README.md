@@ -251,4 +251,7 @@ Chapter 10 Theorems of Pascal and Brianchon
 	1b.Simple hexagon a1a2a3a4a5a6 circumscribed around a (point) conic
 	   Joins a1a2.a4a5 , a2a3.a5a6 , a3a4.a6a1 are concurrent
 	   Theorem (or point) of Brianchon (in color blue)
+	1c.Simple hexagon A1A2A3A4A5A6 inscriped in a five point (point) conic
+	   Intersections A1A2.A4A5 , A2A3.A5A6 , A3A4.A6A1 are collinear
+	   Theorem (or line) of Pascal (in color blue)
 
