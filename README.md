@@ -230,6 +230,10 @@ Chapter 8 Point Conics and Line Conics
 	2. Projective Line Conic r(A,B,C,...) -^ s(A1,B1,C1,...)
 	   Construction of Line Of Pappos p
 	   Points of contact S1 and S2 in color green
+	2b.Projective Line Conic r(A,B,C,...) -^ s(A1,B1,C1,...)
+	   Five line conic abcrs where A,B,C and A1,B1,C1 are intersections
+	   Construction of Line Of Pappos p using Smalltalk Block
+	   Points of contact S1 and S2 in color green
 	4. Tangent Line for projective point conic at a given point T
 	4b.Tangents for all points to point conic: projective line conic
 	   Self-duality of projective conic
