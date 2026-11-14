@@ -237,6 +237,8 @@ Chapter 8 Point Conics and Line Conics
 	4. Tangent Line for projective point conic at a given point T
 	4b.Tangents for all points to point conic: projective line conic
 	   Self-duality of projective conic
+	4c.Point of Contacts for all lines of a five line conic : point conic
+	   Self-duality of projective conic
 
 Chapter 9 Poles and Polar Lines 
 
