@@ -109,6 +109,6 @@ x color:(Color red).
 
 ].
 S1 _ sketch intersectionOf:p and:s.
-S1 color:(Color green). 
+S1 color:(Color blue). 
 S2 _ sketch intersectionOf:p and:r.
 S2 color:(Color green). 

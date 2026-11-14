@@ -84,6 +84,6 @@ x _ sketch line:X to:X1.
 x color:(Color red).
 ].
 S1 _ sketch intersectionOf:p and:s.
-S1 color:(Color green).
+S1 color:(Color green). 
 S2 _ sketch intersectionOf:p and:r.
-S2 color:(Color green).
+S2 color:(Color blue). 

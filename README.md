@@ -229,15 +229,16 @@ Chapter 8 Point Conics and Line Conics
 	   Tangent Lines PR and PS in color green
 	2. Projective Line Conic r(A,B,C,...) -^ s(A1,B1,C1,...)
 	   Construction of Line Of Pappos p
-	   Points of contact S1 and S2 in color green
+	   Points of contact S1 and S2 in color green and blue
 	2b.Projective Line Conic r(A,B,C,...) -^ s(A1,B1,C1,...)
 	   Five line conic abcrs where A,B,C and A1,B1,C1 are intersections
 	   Construction of Line Of Pappos p using Smalltalk Block
-	   Points of contact S1 and S2 in color green
+	   Points of contact S1 and S2 in color green and blue
 	4. Tangent Line for projective point conic at a given point T
 	4b.Tangents for all points to point conic: projective line conic
 	   Self-duality of projective conic
-	4c.Point of Contacts for all lines of a five line conic : point conic
+	4c.Points of contact for all lines of a five line conic : point conic
+	   Points of contact in color green and blue
 	   Self-duality of projective conic
 
 Chapter 9 Poles and Polar Lines 
@@ -251,13 +252,13 @@ Chapter 9 Poles and Polar Lines
 
 Chapter 10 Theorems of Pascal and Brianchon
 
-	1. Simple hexagon A1A2A3A4A5A6 inscriped in a (point) conic
+	1. Simple hexagon A1A2A3A4A5A6 inscribed in a (point) conic
 	   Intersections A1A2.A4A5 , A2A3.A5A6 , A3A4.A6A1 are collinear
 	   Theorem (or line) of Pascal (in color blue)
 	1b.Simple hexagon a1a2a3a4a5a6 circumscribed around a (point) conic
 	   Joins a1a2.a4a5 , a2a3.a5a6 , a3a4.a6a1 are concurrent
 	   Theorem (or point) of Brianchon (in color blue)
-	1c.Simple hexagon A1A2A3A4A5A6 inscriped in a five point (point) conic
+	1c.Simple hexagon A1A2A3A4A5A6 inscribed in a five point (point) conic
 	   Intersections A1A2.A4A5 , A2A3.A5A6 , A3A4.A6A1 are collinear
 	   Theorem (or line) of Pascal (in color blue)
 

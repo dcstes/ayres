@@ -152,5 +152,5 @@ conic do:[ :t | | q |
 q _ lineOfPapposForPencilsBlock value:{ t. s } value:{ a. b. c }.
 q hide.
 (sketch intersectionOf:q and:t) color:(Color green).
-(sketch intersectionOf:q and:s) color:(Color green).
+(sketch intersectionOf:q and:s) color:(Color blue).
 ].
