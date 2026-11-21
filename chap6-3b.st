@@ -18,7 +18,7 @@ imageOfPointInInvolutionBlock2 _ [ :ptR :lines :points |
 	aline _ lines at:2.
 	gline _ lines at:3.
 	
-       k_ sketch line:im2 to:pt2R.
+       k _ sketch line:im2 to:pt2R.
        k hide.
        V _ sketch intersectionOf:gline and:k.
        V hide.
