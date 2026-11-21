@@ -264,3 +264,10 @@ Chapter 10 Theorems of Pascal and Brianchon
 	   Intersections A1A2.A4A5 , A2A3.A5A6 , A3A4.A6A1 are collinear
 	   Theorem (or line) of Pascal (in color blue)
 
+Chapter 11 Desargues' Involution Theorem
+
+	1. Desargues: Simple quadrangle inscribed in a projective conic
+	   defines an involution on a line not on a vertex of the quadrangle,
+	   if it intersects the conic in two points
+           these two points are a reciprocal pair in the involution
+
