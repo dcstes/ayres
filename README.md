@@ -211,6 +211,7 @@ Chapter 6 Involutions
 	3. Construct involution on a line given two reciprocal pairs of points
 	   Cfr. chap5-9b for construction with line of Pappos
 	   elliptic involution : no double points (?)
+	3b.Same as 6.3 but using Smalltalk imageOfPointInInvolutionBlock
 	4. Quadrangular set Q(X,Y,Z;X1,Y1,Z1) section by any line not on vertex
 	   Three reciprocal pairs of an involution
 	4b.Diagonal points as double points in hyperbolic involution
