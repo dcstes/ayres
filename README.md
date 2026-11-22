@@ -63,6 +63,8 @@ Chapter 1 Introduction
 	8b. pencil of lines (POL)
 	8c. pencil of points (POP) using :to:by:do: message
 	8d. pencil of lines (POL) using :to:by:do: message
+	8e. pencil of points (POP) using :to:by:do: message (degrees)
+	8f. pencil of lines (POL) using :to:by:do: message (degrees)
 	9a. elementary perspectivity
 	9b. perspective POPs with center of perspectivity, invariant point
 	9b2. perspective POPs defined by two points and their correspondents
@@ -270,5 +272,6 @@ Chapter 11 Desargues' Involution Theorem
 	   defines an involution on a line not on a vertex of the quadrangle,
 	   if it intersects the conic in two points
            these two points are a reciprocal pair in the involution
-	1c.Same as 1a but without the pointOfPappos construction of the conic
+	1c.Same as 1a without the pointOfPappos construction of the conic
+	1e.Same as 1a without the pointOfPappos construction of the conic
 
