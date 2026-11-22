@@ -266,8 +266,9 @@ Chapter 10 Theorems of Pascal and Brianchon
 
 Chapter 11 Desargues' Involution Theorem
 
-	1. Desargues: Simple quadrangle inscribed in a projective conic
+	1a.Desargues: Simple quadrangle inscribed in a projective conic
 	   defines an involution on a line not on a vertex of the quadrangle,
 	   if it intersects the conic in two points
            these two points are a reciprocal pair in the involution
+	1c.Same as 1a but without the pointOfPappos construction of the conic
 
