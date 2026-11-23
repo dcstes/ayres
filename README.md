@@ -274,4 +274,5 @@ Chapter 11 Desargues' Involution Theorem
            these two points are a reciprocal pair in the involution
 	1c.Same as 1a without the pointOfPappos construction of the conic
 	1e.Same as 1a without the pointOfPappos construction of the conic
+	1g.Same as 1a but construct only one point and show pairs of involution
 
