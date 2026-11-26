@@ -272,6 +272,10 @@ Chapter 11 Desargues' Involution Theorem
 	   defines an involution on a line not on a vertex of the quadrangle,
 	   if it intersects the conic in two points
            these two points are a reciprocal pair in the involution
+	1b.Dual of Desargues: Simple quadrangle circumscribed about a conic
+	   defines an involution on a point that is on two tangents,
+           lines on the vertices of the quadrangle and the two tangents
+           are reciprocal pairs of lines in the involution
 	1c.Same as 1a without the pointOfPappos construction of the conic
 	1e.Same as 1a without the pointOfPappos construction of the conic
 	1g.Same as 1a but construct only one point and show pairs of involution
