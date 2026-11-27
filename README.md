@@ -284,4 +284,9 @@ Chapter 11 Desargues' Involution Theorem
 	1f.Dual of Desargues: use Smalltalk imageOfPointInInvolutionBlock
 	   to construct second tangent to conic from point K
 	1g.Same as 1a but construct only one point and show pairs of involution
+	2a.Desargues: Simple triangle inscribed in a projective conic
+	   + a tangent on a vertex, (triangle+tangent = degenerate quadrangle)
+	   defines an involution on a line not on a vertex of the triangle,
+	   if it intersects the conic in two points
+           these two points are a reciprocal pair in the involution
 
