@@ -277,6 +277,11 @@ Chapter 11 Desargues' Involution Theorem
            lines on the vertices of the quadrangle and the two tangents
            are reciprocal pairs of lines in the involution
 	1c.Same as 1a without the pointOfPappos construction of the conic
+	1d.Same as 1b dual of Desargues
+	   Attempt to construct circumscribed about a conic on ACRS
+	   For some reason A,C tangents are only visible when moving A,C
 	1e.Same as 1a without the pointOfPappos construction of the conic
+	1f.Dual of Desargues: use Smalltalk imageOfPointInInvolutionBlock
+	   to construct second tangent to conic from point K
 	1g.Same as 1a but construct only one point and show pairs of involution
 
