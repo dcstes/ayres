@@ -272,13 +272,13 @@ Chapter 11 Desargues' Involution Theorem
 	   defines an involution on a line not on a vertex of the quadrangle,
 	   if it intersects the conic in two points
            these two points are a reciprocal pair in the involution
-	1b.Dual of Desargues: Simple quadrangle circumscribed about a conic
+	1b.Dual of Desargues: Simple quadrilateral circumscribed about a conic
 	   defines an involution on a point that is on two tangents,
            lines on the vertices of the quadrangle and the two tangents
            are reciprocal pairs of lines in the involution
 	1c.Same as 1a without the pointOfPappos construction of the conic
 	1d.Same as 1b dual of Desargues
-	   Attempt to construct circumscribed about a conic on ACRS
+	   Try to construct circumscribed quadrilateral about a conic on ACRS
 	   For some reason A,C tangents are only visible when moving A,C
 	1e.Same as 1a without the pointOfPappos construction of the conic
 	1f.Dual of Desargues: use Smalltalk imageOfPointInInvolutionBlock
@@ -289,4 +289,9 @@ Chapter 11 Desargues' Involution Theorem
 	   defines an involution on a line not on a vertex of the triangle,
 	   if it intersects the conic in two points
            these two points are a reciprocal pair in the involution
+	2b.Construction of a tangent line to a projective (5 point) conic
+	   Use Smalltalk imageOfPointInInvolutionBlock
+	   to construct a tangent line at a given point of the conic
+	   Consider inscribed triangle + tangent at a vertex
+	   as degenerate quadrangle inscribed in the conic
 
